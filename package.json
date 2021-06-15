@@ -1,0 +1,23 @@
+{
+  "name": "geo-cities",
+  "version": "1.0.0",
+  "description": "API to return, the country and timezone info, distance (in km or miles) and the time difference in hours, between two",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "nodemon app.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^15.12.2",
+    "nodemon": "^2.0.7",
+    "ts-node": "^10.0.0",
+    "typescript": "^4.3.2"
+  },
+  "dependencies": {
+    "@googlemaps/google-maps-services-js": "^3.1.16",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1"
+  }
+}
