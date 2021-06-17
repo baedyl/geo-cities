@@ -1,0 +1,16 @@
+---
+application:
+  name: "geo-cities"
+  project: "geo-cities"
+  organization: "QoveryCommunity"
+  storage:
+  - name: "disk"
+    size: "30"
+    type: "ssd"
+    mount_point: "/mnt/disk"
+routers:
+- name: "main-geo-cities"
+  routes:
+  - application_name: "geo-cities"
+    paths:
+    - "/*"
